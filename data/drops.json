@@ -1,0 +1,74 @@
+[
+  {
+    "handle": "drop-003",
+    "number": "003",
+    "title": "Heatwave",
+    "status": "live",
+    "launchedAt": "2026-05-16",
+    "closesAt": "2026-06-30",
+    "statement": "Cut in Karachi when the city stopped breathing. 47°C. The fabric remembers. So do we.",
+    "cover": "https://www.kottonfruit.com/cdn/shop/files/BANNER_jpg.jpg?v=1770964094&width=3840",
+    "lookbook": [
+      "https://www.kottonfruit.com/cdn/shop/files/MANI0476.jpg?v=1773312756&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/MANI0475.jpg?v=1773312756&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/KKW09153.jpg?v=1755765970&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/ChatGPTImageMay12_2026_03_36_24PM.png?v=1778582482&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/ChatGPTImageMay12_2026_02_07_16PM.png?v=1778576879&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/ChatGPTImageMay12_2026_03_39_19PM.png?v=1778582482&width=1100"
+    ],
+    "shotBy": "In-house",
+    "shotIn": "Karachi",
+    "productHandles": [
+      "apex-utility-zipper-polo-t-shirt",
+      "apex-brown-utility-zipper-polo",
+      "apex-utility-short",
+      "arcline-oversized-t-shirt",
+      "arcline-wide-leg-sweatpant",
+      "aure-oversized-shirt"
+    ]
+  },
+  {
+    "handle": "drop-002",
+    "number": "002",
+    "title": "Monsoon",
+    "status": "sold-out",
+    "launchedAt": "2026-02-14",
+    "closesAt": "2026-03-28",
+    "statement": "Made for the rain that doesn't fall when it should.",
+    "cover": "https://www.kottonfruit.com/cdn/shop/files/MANI0105.jpg?v=1735734970&width=1100",
+    "lookbook": [
+      "https://www.kottonfruit.com/cdn/shop/files/MANI0105.jpg?v=1735734970&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/blackfront.jpg?v=1754116349&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/blackback.jpg?v=1754116349&width=1100"
+    ],
+    "shotBy": "In-house",
+    "shotIn": "Lahore",
+    "productHandles": [
+      "bearlyawake-black-oversize-hoodie",
+      "back-off-oversized-t-shirt",
+      "astro-oversized-t-shirt"
+    ]
+  },
+  {
+    "handle": "drop-001",
+    "number": "001",
+    "title": "Origins",
+    "status": "sold-out",
+    "launchedAt": "2025-09-01",
+    "closesAt": "2025-10-15",
+    "statement": "The first one. We didn't know what we were doing. Neither did you.",
+    "cover": "https://www.kottonfruit.com/cdn/shop/files/URP_1975.jpg?v=1735734962&width=1100",
+    "lookbook": [
+      "https://www.kottonfruit.com/cdn/shop/files/URP_1975.jpg?v=1735734962&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/ALONE_FRONT.jpg?v=1754116323&width=1100",
+      "https://www.kottonfruit.com/cdn/shop/files/BATMAN_FRONT.jpg?v=1754116324&width=1100"
+    ],
+    "shotBy": "Self",
+    "shotIn": "Nazimabad, Karachi",
+    "productHandles": [
+      "alone-oversized-t-shirt",
+      "batman-oversized-t-shirt",
+      "amg-oversized-t-shirt"
+    ]
+  }
+]
