@@ -12,7 +12,7 @@ export function Footer() {
               FRUIT.
             </p>
             <p className="mt-6 mono-label text-ink-dim">
-              KARACHI / PAKISTAN
+              PAKISTAN — EST. 2025
             </p>
           </div>
 

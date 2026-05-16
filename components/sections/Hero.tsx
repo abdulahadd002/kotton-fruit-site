@@ -36,7 +36,7 @@ export function Hero() {
           as="h1"
           className="display text-[clamp(3.5rem,11vw,11rem)] text-ink"
         >
-          {"KARACHI\nRULES\nNOTHING."}
+          {"WORN\nBY THOSE\nWHO DO."}
         </SplitReveal>
 
         <div className="mt-10 flex flex-col-reverse md:flex-row md:items-end md:justify-between gap-8">

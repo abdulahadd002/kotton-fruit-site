@@ -53,7 +53,7 @@ export function Manifesto() {
           as="p"
           className="display text-[clamp(2.5rem,8vw,8rem)] text-ink"
         >
-          {"WORN IN KARACHI.\nSWEATED IN LAHORE.\nSTOLEN IN DUBAI."}
+          {"WORN AT HOME.\nSWEATED IN LAHORE.\nSTOLEN IN DUBAI."}
         </SplitReveal>
         <div
           data-reveal-group

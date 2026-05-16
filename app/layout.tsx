@@ -32,14 +32,14 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kotton Fruit — Karachi-grown streetwear",
+  title: "Kotton Fruit — Streetwear, cut at home",
   description:
-    "Drops, not stock. Worn in Karachi. Sweated in Lahore. Stolen in Dubai.",
+    "Drops, not stock. Worn at home. Sweated in Lahore. Stolen in Dubai.",
   metadataBase: new URL("https://abdulahadd002.github.io/kotton-fruit-site/"),
   openGraph: {
-    title: "Kotton Fruit — Karachi-grown streetwear",
+    title: "Kotton Fruit — Streetwear, cut at home",
     description:
-      "Drops, not stock. Worn in Karachi. Sweated in Lahore. Stolen in Dubai.",
+      "Drops, not stock. Worn at home. Sweated in Lahore. Stolen in Dubai.",
     type: "website",
   },
 };
@@ -64,7 +64,7 @@ export default function RootLayout({
             "DROP 003 — HEATWAVE — LIVE NOW",
             "FREE SHIPPING OVER PKR 6,000",
             "MEMBERS GET 24H EARLY ACCESS",
-            "SHIPPING FROM KARACHI",
+            "STITCHED IN PAKISTAN",
           ]}
         />
         <CartProvider>

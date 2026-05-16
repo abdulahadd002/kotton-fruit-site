@@ -20,9 +20,9 @@ export function Showcase3D() {
         <div data-reveal-group className="mb-32">
           <p className="mono-label text-accent">// THE PIECES</p>
           <h2 className="display text-[clamp(3rem,10vw,11rem)] mt-4 leading-[0.85]">
-            CUT IN
+            CUT
             <br />
-            <span className="text-accent">KARACHI.</span>
+            <span className="text-accent">AT HOME.</span>
           </h2>
           <p className="mt-6 max-w-md text-ink-dim">
             Drop {current.number}. Six pieces. Photographed on bodies that live

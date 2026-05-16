@@ -29,7 +29,7 @@ export default function MovementPage() {
             </p>
             <p>
               We were tired. Of bands we&apos;d never seen printed on tees we
-              didn&apos;t make. Of brands telling us what Karachi looked like
+              didn&apos;t make. Of brands telling us what home looked like
               when we&apos;d lived here our whole lives. Of clothes designed
               somewhere cold for weather we don&apos;t have.
             </p>
@@ -93,7 +93,7 @@ const RULES = [
   {
     num: "03",
     title: "We ship from home.",
-    body: "Studio in Nazimabad, Karachi. Stitched in-country. The bolt number is on the care label.",
+    body: "Studio in Nazimabad. Stitched in-country. The bolt number is on the care label.",
   },
   {
     num: "04",

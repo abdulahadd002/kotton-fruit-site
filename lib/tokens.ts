@@ -21,7 +21,7 @@ export const tokens = {
 
 export const brand = {
   name: "KOTTON FRUIT",
-  tagline: "Karachi-grown streetwear for the ones already in it.",
+  tagline: "Streetwear, cut at home — for the ones already in it.",
   currentDrop: { number: "003", handle: "drop-003", title: "Heatwave" },
   freeShippingAt: 6000,
   memberFreeShippingAt: 4500,

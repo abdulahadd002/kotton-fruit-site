@@ -55,7 +55,7 @@ export function CartDrawer() {
               YET.
             </p>
             <p className="text-ink-dim max-w-[260px] mb-8">
-              Drop 003 is live and stitched in Karachi. Start there.
+              Drop 003 is live and stitched at home. Start there.
             </p>
             <Link
               href="/drops/drop-003"

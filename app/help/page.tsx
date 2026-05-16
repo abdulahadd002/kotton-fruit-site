@@ -3,7 +3,7 @@ import Link from "next/link";
 const FAQ = [
   {
     q: "When does Drop 003 ship?",
-    a: "Drop 003 ships within 48 hours of order. COD orders ship after WhatsApp OTP verification. Outside Karachi: 3–5 business days.",
+    a: "Drop 003 ships within 48 hours of order. COD orders ship after WhatsApp OTP verification. Major cities: 1–2 days. Elsewhere: 3–5 business days.",
   },
   {
     q: "What's your returns policy?",
