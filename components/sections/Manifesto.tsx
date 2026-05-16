@@ -57,7 +57,7 @@ export function Manifesto() {
         </SplitReveal>
         <div
           data-reveal-group
-          className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl"
+          className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8"
         >
           <Rule num="01" body="We don't beg." />
           <Rule num="02" body="We don't discount the drops." />

@@ -84,21 +84,35 @@ export default async function DropPage({
         </div>
       </section>
 
-      {/* Lookbook */}
+      {/* Lookbook — cycled pattern: full, 5+7, 7+5 */}
       {drop.lookbook.length > 0 && (
         <section className="bg-bg">
           <div className="grid grid-cols-12 gap-2 px-2">
             {drop.lookbook.map((src, i) => {
-              const span = i % 5 === 0 ? "col-span-12" : i % 3 === 0 ? "col-span-12 md:col-span-7" : "col-span-12 md:col-span-5";
-              const aspect = i % 5 === 0 ? "aspect-[21/9]" : "aspect-[4/5]";
+              const cycle = i % 5;
+              let span = "col-span-12";
+              let aspect = "aspect-[21/9]";
+              if (cycle === 1) {
+                span = "col-span-12 md:col-span-5";
+                aspect = "aspect-[4/5]";
+              } else if (cycle === 2) {
+                span = "col-span-12 md:col-span-7";
+                aspect = "aspect-[4/5]";
+              } else if (cycle === 3) {
+                span = "col-span-12 md:col-span-7";
+                aspect = "aspect-[4/5]";
+              } else if (cycle === 4) {
+                span = "col-span-12 md:col-span-5";
+                aspect = "aspect-[4/5]";
+              }
               return (
                 <div
                   key={i}
-                  className={`${span} ${aspect} relative overflow-hidden`}
+                  className={`${span} ${aspect} relative overflow-hidden bg-surface`}
                 >
                   <Image
                     src={src}
-                    alt={`Drop ${drop.number} lookbook ${i + 1}`}
+                    alt={`Drop ${drop.number} lookbook, frame ${i + 1}`}
                     fill
                     sizes="(min-width: 768px) 58vw, 100vw"
                     className="object-cover"

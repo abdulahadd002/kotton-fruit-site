@@ -8,6 +8,8 @@ import { CursorFollower } from "@/components/primitives/CursorFollower";
 import { RevealInit } from "@/components/primitives/RevealInit";
 import { Header } from "@/components/nav/Header";
 import { Footer } from "@/components/nav/Footer";
+import { CartProvider } from "@/components/cart/CartContext";
+import { CartDrawer } from "@/components/cart/CartDrawer";
 
 const display = Inter_Tight({
   subsets: ["latin"],
@@ -33,7 +35,13 @@ export const metadata: Metadata = {
   title: "Kotton Fruit — Karachi-grown streetwear",
   description:
     "Drops, not stock. Worn in Karachi. Sweated in Lahore. Stolen in Dubai.",
-  metadataBase: new URL("https://kottonfruit.com"),
+  metadataBase: new URL("https://abdulahadd002.github.io/kotton-fruit-site/"),
+  openGraph: {
+    title: "Kotton Fruit — Karachi-grown streetwear",
+    description:
+      "Drops, not stock. Worn in Karachi. Sweated in Lahore. Stolen in Dubai.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -59,9 +67,12 @@ export default function RootLayout({
             "SHIPPING FROM KARACHI",
           ]}
         />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <CartProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <CartDrawer />
+        </CartProvider>
       </body>
     </html>
   );

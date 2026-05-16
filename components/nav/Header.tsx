@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/cn";
+import { CartButton } from "@/components/cart/CartButton";
 
 const nav = [
   { href: "/drops/drop-003", label: "Drop 003" },
@@ -64,12 +65,7 @@ export function Header() {
           >
             Account
           </Link>
-          <Link
-            href="#cart"
-            className="mono-label text-ink hover:text-accent transition-colors"
-          >
-            Cart (0)
-          </Link>
+          <CartButton />
           <button
             type="button"
             aria-label="Open menu"

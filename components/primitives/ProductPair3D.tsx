@@ -15,6 +15,7 @@ type Props = {
   reverse?: boolean;
   caption?: string;
   sku?: string;
+  aspectClassName?: string;
 };
 
 export function ProductPair3D({
@@ -26,6 +27,7 @@ export function ProductPair3D({
   reverse = false,
   caption,
   sku,
+  aspectClassName = "aspect-[3/4]",
 }: Props) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
@@ -66,7 +68,8 @@ export function ProductPair3D({
     <div
       ref={wrapRef}
       className={cn(
-        "group relative aspect-[3/4] w-full",
+        "group relative w-full",
+        aspectClassName,
         className
       )}
       style={{ perspective: "1400px" }}

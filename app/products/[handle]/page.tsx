@@ -34,17 +34,16 @@ export default async function ProductPage({
     <>
       <section className="bg-bg">
         <div className="container-fluid grid grid-cols-1 lg:grid-cols-12 gap-8 pt-8">
-          {/* Left: product gallery — 3D pair when multi-image */}
+          {/* Left: product gallery — same outer dimensions for pair and single */}
           <div className="lg:col-span-7">
             {hasPair ? (
-              <div className="pl-4 md:pl-12 pr-4 md:pr-12 py-8 md:py-16">
-                <ProductPair3D
-                  front={product.images[0]}
-                  back={product.images[1]}
-                  alt={product.title}
-                  sku={product.sku}
-                />
-              </div>
+              <ProductPair3D
+                front={product.images[0]}
+                back={product.images[1]}
+                alt={product.title}
+                sku={product.sku}
+                aspectClassName="aspect-[4/5]"
+              />
             ) : (
               <div className="aspect-[4/5] relative overflow-hidden bg-surface border border-line">
                 <Image
@@ -55,16 +54,14 @@ export default async function ProductPage({
                   sizes="(min-width: 1024px) 58vw, 100vw"
                   className="object-cover"
                 />
-                <div className="absolute top-4 left-4">
-                  <span className="mono-label text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
-                    {product.sku}
-                  </span>
-                </div>
+                <span className="absolute top-4 left-4 mono-label text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
+                  {product.sku}
+                </span>
               </div>
             )}
 
             {product.images.length > 2 && (
-              <div className="grid grid-cols-2 gap-4 mt-12">
+              <div className="grid grid-cols-2 gap-4 mt-8">
                 {product.images.slice(2, 4).map((src, i) => (
                   <div
                     key={i}
